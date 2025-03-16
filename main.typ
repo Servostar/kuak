@@ -50,9 +50,7 @@
 
 #set text(lang: "de")
 
-= Einführung
-
-#lorem(200)
+#include "chapters/cinematics.typ"
 
 #show heading.where(level: 1): set text(fill: color.black, size: 10pt)
 #bibliography("refs.bib", title: "Referenzen")
