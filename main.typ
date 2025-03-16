@@ -18,7 +18,7 @@
       institution: "DHBW Mannheim",
       city: "Mannheim",
       country: "Germany",
-      mail: "s9276615@student.dhbw-mannheim.de",
+      mail: "s221978@student.dhbw-mannheim.de",
     ),
   ),
   date: (
