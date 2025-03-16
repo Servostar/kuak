@@ -2,6 +2,8 @@
 
 #import "./template.typ" as graceful-genetics
 #import "@preview/physica:0.9.3"
+#import "@preview/glossarium:0.5.4": make-glossary, register-glossary, print-glossary, gls, glspl
+#import "glossary.typ" as glossary
 
 #show: graceful-genetics.template.with(
   title: [Selbstschussanlagen zur Insektenkontrolle],
@@ -50,11 +52,22 @@
 
 #set text(lang: "de")
 
+#show: make-glossary
+
+#register-glossary(glossary.entries)
+// Your document body
+
 = Einführung
 
 #lorem(200)
+@kuleuven
 
 #include "chapters/zielerkennung.typ"
 
 #show heading.where(level: 1): set text(fill: color.black, size: 10pt)
+
+= Glossar
+
+#print-glossary(glossary.entries)
+
 #bibliography("refs.bib", title: "Referenzen")
