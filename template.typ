@@ -46,7 +46,7 @@
   set par(justify: true)
 
   [
-    #heading(outlined: false, bookmarked: false)[Abstract]
+    #heading(outlined: false, bookmarked: false)[Abstrakt]
     #text(font: "TeX Gyre Pagella", abstract)
     #v(3pt)
     *Stichwörter:* #keywords.join(text(font: "TeX Gyre Pagella", "; "))
