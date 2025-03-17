@@ -188,3 +188,65 @@ des generell bisher einfach gestrickten Modells sind mechanische Schleifringe
 zu bevorzugen.
 
 == Auslegung der Motoren
+
+Da die Kinematik in der Lage sein muss sich bewegenden Insekten zu folgen
+und anzuvisieren stellt sich noch die Frage, ob herkömmliche Servomotoren wie
+sie in vielen Arduino basierten Projekten Verwendung finden dieser Aufgabe
+gewachsen sind. Zu diesem Zweck werden Kennwerte definiert welche festlegen
+unter welchen Rahmenbedingungen der Motor agieren soll. Angesetzt wird eine
+Reichweite von 1 m - 3 m für die Verwendung in einem kleinen Raum. Für Insekten
+setzen wir eine Größe von etwa $1 "cm"$ bei einer Bewegungsgeschwindigkeit von
+$1 - 3 frac(m, s)$.
+Zwei Größen spielen bei der Bewertung der Motoren eine Rolle: die Auflösung
+der Winkel, die pro Schritt getroffen werden können und die maximale
+Winkelgeschwindigkeit.
+Um die Ober- und Unterschranke der Auflösung für Winkel zu errechnen, werden
+für jeweils den minimalen und maximalen Radius in der horizontalen der Umfang
+so unterteilt, dass nahtlos ein Insekt der Größe $h$ auf die gesamten 360° passt.
+
+#figure(image("../res/angle-resolution.svg", width: 55%), caption: [Berechnung der Winkelauflösung.]) <figure:angle-resolution>
+
+Dies muss nur für die horizontale gemacht werden, da hier bereits die gesamte Kreisfläche
+mit einem Winkel von 360° abgedeckt wird. Für die Ober- und Untergrenze der
+Winkelauflösung ergeben sich folgende Werte:
+
+$
+  frac(h dot 360°, 2 pi dot r)
+  stretch(=>, size: #175%)
+  frac("1 cm" dot 360°, 2 pi dot { "1 m", "3 m" }) approx { "0,57°" "0,19°" }
+$
+
+Die benötigte Winkelgeschwindigkeit wird auf eine ähnliche Art berechnet.
+Hierbei wird die Schrecke die ein Insekt pro Sekunde auf der größten
+und kleinsten Kreisbahn jeweils fliegen kann durch den Umfang der jeweiligen
+Kreisbahn geteilt. Dieser Faktor skaliert den gesamten Winkel der abgedeckt
+werden soll (360°).
+
+#figure(image("../res/angle-speed.svg", width: 55%), caption: [Berechnung der Winkelgeschwindigkeit.]) <figure:angle-resolution>
+
+Für die festgelegten Kennwerte ergeben sich folgende Winkelgeschwindigkeiten:
+
+$
+  frac(s dot 360°, 2 pi dot r)
+  stretch(=>, size: #175%)
+  frac(1 frac(m,s) dot 360°, 2 pi dot { "1 m", "3 m" }) approx { frac("57,3°", "s"), frac("19,1°", "s") }
+$
+
+Es werden also Motoren benötigt, die in etwa folgende Kennwerte erreichen:
+
+- Winkelauflösung $approx "0,2°"$
+- Winkelgeschwindigkeit $approx frac("60°", "s")$
+
+Für billige Servomotoren welche typischerweise in Arduino basierten Projekten
+verwendet werden wie dem FS90R oder FT1117M liegt die Winkelgeschwindigkeit bei etwa
+$frac("545°", "s") - frac("780°", "s")$ mit einer maximalen Betriebsspannung von
+6 V @FT1117M @FS90R. Damit bieten die Motoren eine mehr als ausreichende Winkelgeschwindigkeit,
+die mehr als neunmal so hoch ist und auch unter der Betrachtung, dass die Winkelgeschwindigkeit
+unter Last deutlich sinkt noch standhalten sollte.
+Wesentlich problematischer ist die Winkelauflösung. Diese liegt ohne eine Last
+bei den Servomotoren bei etwa 1° - 3° unter Last deutlich mehr.
+Dies erweist sich als Problem, da eine etwa 10-mal höhere Auflösung für einen
+Betriebsradius von 3 m gebraucht wird. Aus diesem Grund wäre es eine gute Überlegung
+anstatt herkömmlichen Servomotoren etwas teurere Schrittmotoren zu verwenden,
+welche deutlich höhere Winkelauflösungen mit verbesserter Genauigkeit erreichen
+@AccuracyDiscussion.
