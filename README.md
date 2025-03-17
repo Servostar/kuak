@@ -15,7 +15,7 @@
 </div>
 
 <div align="center">
-    <img src="https://img.shields.io/github/license/servostar/kuak?style=for-the-badge">
+    <img src="https://img.shields.io/badge/CC%20BY--SA%204.0-green?style=for-the-badge&label=LICENSE">
     <img src="https://img.shields.io/badge/typst-239DAD.svg?style=for-the-badge&logo=typst&logoColor=white">
     <img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white">
 </div>
