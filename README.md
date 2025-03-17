@@ -9,9 +9,9 @@
 </div>
 
 <div align="center">
-  <h2>
+  <p>
     Komplexe Ungeziefer Auslöschungs Kinematik
-  </h2>
+  </p>
 </div>
 
 <div align="center">
@@ -19,6 +19,8 @@
     <img src="https://img.shields.io/badge/typst-239DAD.svg?style=for-the-badge&logo=typst&logoColor=white">
     <img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white">
 </div>
+
+<br>
 
 Vortrag und schriftliche Abgabe, die im Rahmen der Vorlesung "Robotik" im 6.
 Theorie Semester an der DHBW im Studiengang Informatik gemacht wurden.
