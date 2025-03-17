@@ -5,6 +5,18 @@
 #import "@preview/glossarium:0.5.4": make-glossary, register-glossary, print-glossary, gls, glspl
 #import "glossary.typ" as glossary
 
+#set document(
+  author: ("Sven Vogel <s222468@student.dhbw-mannheim.de>", "Felix L. Müller <s221978@student.dhbw-mannheim.de>"),
+  description: "Presentation held on march 10th 2025 at class.",
+  title: "Selbstschussanlagen zur Insektenkontrolle",
+  keywords:  (
+    "Robotik",
+    "Insektenkontrolle",
+    "Laser",
+    "Selbstschussanlage",
+    "Zielerkennung")
+)
+
 #show: graceful-genetics.template.with(
   title: [Selbstschussanlagen zur Insektenkontrolle],
   authors: (
