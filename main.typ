@@ -69,3 +69,10 @@
 #print-glossary(glossary.entries)
 
 #bibliography("refs.bib", title: "Referenzen")
+
+#pdf.embed(
+  "attachments/kuak.odp",
+  relationship: "supplement",
+  mime-type: "application/vnd.oasis.opendocument.presentation",
+  description: "Presentation held on march 10th 2025 at class.",
+)
