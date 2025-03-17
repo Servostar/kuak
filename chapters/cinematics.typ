@@ -93,7 +93,7 @@ Der Winkel $Phi$ des zweiten Gelenkes kann durch folgende Rechnungen erlangt wer
 Zunächst wird der Punkt errechnet an welchem das zweite Gelenk sitzt:
 
 $
-  K = arrow(B) + vec(0, h_2, 0)
+  arrow(K) = arrow(B) + vec(0, h_2, 0)
 $
 
 Punkt $arrow(K)$ und die Position $arrow(P)$ des Zieles befinden sich in Weltkoordinaten.
@@ -130,8 +130,61 @@ $
 
 #figure(image("../res/phi.svg", width: 40%), caption: [Lösung für $Phi$ nach der Transformation.]) <figure:phi>
 
-
-
 == Bauteile
+
+Bei der Betrachtung einer Kinematik in einem konkreten Anwendungsfall darf auch nicht
+die Praxis vernachlässigt werden. Zunächst betrachtet wird die Motorisierung.
+Der Antrieb beider Gelenke soll über zwei Elektromotoren funktionieren.
+@figure:aufbau zeigt die angedachte Position beider Motoren (orange) im Robotor.
+
+#figure(image("../res/aufbau.png", width: 40%), caption: [Schematischer Aufbau.]) <figure:aufbau>
+
+Der erste Motor, zuständig für die horizontale Rotation, sitzt seitlich versetzt
+im statischen Fundament. Über ein Zahnrad überträgt der Motor seine kinetische
+Energie an ein inneres Stirnrad (gelb). Das Stirnrad ist fest mit der Basis
+verbunden, wodurch die Basis gedreht wird. Durch das große Verhältnis Stirnrad
+zu Zahnrad am Motor verringert sich drastisch die maximale Winkelgeschwindigkeit
+für die Basis. Aufgrund dessen sollte ein Motor eingesetzt werden welcher eine
+hohe Drehzahl erreichen kann. Um eine genaue Kontrolle über den Parameter $theta$
+zu haben wäre bietet sich ein Schrittmotor an. Diese erlauben eine hohe Auflösung
+von Schritten in der Rotation. Gleichzeitig können diese um beliebig große Winkel
+gedreht werden @Bouat_2023.
+
+Für die vertikale Rotation, welche im Bereich 0° - 180° arbeitet, bietet sich
+ein Servomotor an. Klassische Servomotoren haben den eben beschriebenen Arbeitsraum.
+Ein wesentlicher Vorteil für einen Servomotor ist dessen erschwinglicher Preis.
+Einfache Servomotoren wie sie für Kontroller wie einem Arduino verwendet werden
+starten bereits bei 7,14 €.
+
+=== Schleifring
+
+Grund für den Zwischenschritt, den das innere Stirnrad bildet,
+ist das Kabelproblem. Da sich die Basis vorzugsweise um mehr als 360° drehen
+kann führen Kabel welche am Gehäuse geführt werden, um Komponenten mit Strom
+zu versorgen, zu einem Problem: Kabelsalat. Bei mehrfachen Drehungen wickeln
+sich die Kabel auf und verhindern ab einem gewissen Punkt weitere Rotationen
+oder führen zu Schaden. Um dieses Problem zu lösen wird Storm nicht über externe
+Kabel geleitet, sondern wird durch einen Schleifring (cyan) in der Mitte geführt.
+
+#figure(image("../res/schleifring.jpg", width: 40%), caption: [MD6038 Schleifring der Firma Moog @slipring-moog.]) <figure:slipring>
+
+Wie der Name bereits verrät, befinden sich im Inneren des Schleifringes zwei
+Kontakte die aneinander schleifen und durch mechanischen Kontakt eine leitende
+Verbindung über den gesamten Umfang des Ringes sicherstellen. Die große Stärke
+des Schleifringes ist gleichzeitig auch dessen größter Nachteil. Das kontinuierliche
+Reiben der Kontakte für über kurz oder lang zu einer verschnellerten Abnutzung
+im Vergleich zu reinen Kabeln.
+Ein weiterer wesentlicher Faktor in der Abnutzung
+sind sogenannte Müdigkeitserscheinungen. Dies sind Brüche im Schleifring welche
+vor allem Aufgrund drastisch wechselndem Stress durch hohe Beschleunigungen
+oder abruptem Bremsen entstehen. Diese Mechanik führt zusätzlich zu einer gesteigerten
+Geräuschentwicklung @zhang-Meng-Lui_2019. Eine Alternative zu mechanischen
+Schleifringen wäre ein magnetischer Schleifring. Dieser überträgt den Strom
+nicht über physische Kontakte, sondern über Spulen mittels Induktion.
+Diese Art von Schleifring benötigen für die Versorgung und Übertragung
+Wechselspannung und sind in der Regel deutlich teurer, leiden dafür unter einer
+wesentlich geringeren Abnutzung @6908180. Aufgrund des niedrigen Preises und
+des generell bisher einfach gestrickten Modells sind mechanische Schleifringe
+zu bevorzugen.
 
 == Auslegung der Motoren
