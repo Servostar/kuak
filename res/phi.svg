@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="79.67012mm"
+   height="73.127121mm"
+   viewBox="0 0 79.670119 73.127129"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="angles.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.2778203"
+     inkscape:cx="88.022747"
+     inkscape:cy="156.28977"
+     inkscape:window-width="1920"
+     inkscape:window-height="1128"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle_F-000000_S-578900"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:#578900;fill-rule:evenodd;stroke:#578900;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle_F-000000_S-f22500"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:#f22500;fill-rule:evenodd;stroke:#f22500;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle_F-000000_S-0080cf"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:#0080cf;fill-rule:evenodd;stroke:#0080cf;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.751688,-49.774555)">
+    <g
+       id="g21"
+       transform="matrix(0.20446893,-0.21676178,0.21676178,0.20446893,86.21948,111.77005)"
+       style="stroke-width:5.03386;stroke-dasharray:none" />
+    <g
+       id="g23"
+       transform="matrix(0.37137139,0,0,0.37137139,2.1541023,51.83279)"
+       style="stroke-width:4.03908;stroke-dasharray:none">
+      <path
+         style="stroke-width:4.03908;stroke-dasharray:none;fill:#000000;fill-opacity:1;stroke:#0080cf;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.971652;marker-end:url(#Triangle_F-000000_S-0080cf);paint-order:stroke fill markers"
+         d="M 32.059157,185.15325 74.276522,142.93588"
+         id="path21" />
+      <path
+         style="stroke-width:4.03908;stroke-dasharray:none;fill:#000000;fill-opacity:1;stroke:#f22500;stroke-linejoin:round;stroke-opacity:0.971652;marker-end:url(#Triangle_F-000000_S-f22500);paint-order:stroke fill markers"
+         d="M 32.059157,185.15325 H 91.763529"
+         id="path22" />
+      <path
+         style="stroke-width:4.03908;stroke-dasharray:none;fill:#000000;fill-opacity:1;stroke:#578900;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.971652;marker-end:url(#Triangle_F-000000_S-578900);paint-order:stroke fill markers"
+         d="M 32.059157,185.15325 V 125.44888"
+         id="path23" />
+    </g>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#9e9e9e;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 43.619264,110.59973 H 91.421807"
+       id="path35" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#9e9e9e;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 67.645057,110.59247 67.520534,73.31046"
+       id="path36"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 28.41557,53.623034 67.520534,110.59973"
+       id="path41" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2a2a2a;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 67.645057,110.59247 78.239467,98.984654 28.41557,53.623033"
+       id="path38"
+       inkscape:transform-center-x="16.239298"
+       inkscape:transform-center-y="-30.507429"
+       sodipodi:nodetypes="ccc" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path37"
+       cx="28.58107"
+       cy="53.648529"
+       r="1.9746583" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2a2a2a;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path39"
+       sodipodi:type="arc"
+       sodipodi:cx="78.239464"
+       sodipodi:cy="98.984657"
+       sodipodi:rx="6.8996549"
+       sodipodi:ry="6.8996549"
+       sodipodi:start="2.3682125"
+       sodipodi:end="3.8706315"
+       sodipodi:arc-type="arc"
+       d="M 73.302391,103.80447 A 6.8996549,6.8996549 0 0 1 73.093598,94.388431"
+       sodipodi:open="true" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0080cf;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path42"
+       sodipodi:type="arc"
+       sodipodi:cx="67.645058"
+       sodipodi:cy="110.59247"
+       sodipodi:rx="6.3243923"
+       sodipodi:ry="6.3243923"
+       sodipodi:start="4.7076894"
+       sodipodi:end="5.45379"
+       sodipodi:arc-type="slice"
+       d="m 67.615336,104.26815 a 6.3243923,6.3243923 0 0 1 4.300722,1.65993 l -4.271,4.66439 z" />
+    <circle
+       style="fill:#2a2a2a;fill-opacity:1;stroke:none;stroke-width:0.236325;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path40"
+       cx="74.287651"
+       cy="99.120781"
+       r="0.48526284" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#5b8c07;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path43"
+       sodipodi:type="arc"
+       sodipodi:cx="67.645058"
+       sodipodi:cy="110.59247"
+       sodipodi:rx="6.3243923"
+       sodipodi:ry="6.3243923"
+       sodipodi:start="3.1252007"
+       sodipodi:end="4.1172908"
+       sodipodi:arc-type="slice"
+       d="m 61.321515,110.69613 a 6.3243923,6.3243923 0 0 1 2.778151,-5.34085 l 3.545392,5.23719 z" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#f22500;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path44"
+       sodipodi:type="arc"
+       sodipodi:cx="28.415571"
+       sodipodi:cy="53.623035"
+       sodipodi:rx="10.193461"
+       sodipodi:ry="10.193461"
+       sodipodi:start="0.74001521"
+       sodipodi:end="0.97014338"
+       sodipodi:arc-type="slice"
+       d="m 35.943017,60.496478 a 10.193461,10.193461 0 0 1 -1.766292,1.535824 l -5.761154,-8.409267 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.28508px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f22500;fill-opacity:1;stroke:none;stroke-width:1.72089;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="34.287277"
+       y="53.249908"
+       id="text44"><tspan
+         sodipodi:role="line"
+         id="tspan44"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.28508px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f22500;fill-opacity:1;stroke:none;stroke-width:1.72089"
+         x="34.287277"
+         y="53.249908">γ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.28508px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.72089;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="55.395962"
+       y="107.37685"
+       id="text45"><tspan
+         sodipodi:role="line"
+         id="tspan45"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.28508px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.72089"
+         x="55.395962"
+         y="107.37685" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#5b8c07;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="53.229053"
+       y="107.06791"
+       id="text46"><tspan
+         sodipodi:role="line"
+         id="tspan46"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#5b8c07;fill-opacity:1;stroke-width:1"
+         x="53.229053"
+         y="107.06791">𝝋</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0080cf;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="61.853642"
+       y="101.4131"
+       id="text47"><tspan
+         sodipodi:role="line"
+         id="tspan47"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0080cf;fill-opacity:1;stroke-width:1"
+         x="61.853642"
+         y="101.4131">Φ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="20.009878"
+       y="56.091694"
+       id="text48"><tspan
+         sodipodi:role="line"
+         id="tspan48"
+         style="fill:#000000;fill-opacity:1;stroke-width:1"
+         x="20.009878"
+         y="56.091694">P'</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a2a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="76.720444"
+       y="107.76186"
+       id="text49"><tspan
+         sodipodi:role="line"
+         id="tspan49"
+         style="fill:#2a2a2a;fill-opacity:1;stroke-width:1"
+         x="76.720444"
+         y="107.76186">h</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="63.08604"
+       y="117.53593"
+       id="text50"><tspan
+         sodipodi:role="line"
+         id="tspan50"
+         style="fill:#000000;fill-opacity:1;stroke-width:1"
+         x="63.08604"
+         y="117.53593">K'</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.751299;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="circle50"
+       cx="67.841576"
+       cy="110.65018"
+       r="0.98903877" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a2a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="80.293312"
+       y="108.95282"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2a2a2a;fill-opacity:1;stroke-width:1"
+         x="80.293312"
+         y="108.95282">1</tspan></text>
+  </g>
+</svg>

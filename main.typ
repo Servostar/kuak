@@ -57,10 +57,7 @@
 #register-glossary(glossary.entries)
 // Your document body
 
-= Einführung
-
-#lorem(200)
-@kuleuven
+#include "chapters/cinematics.typ"
 
 #show heading.where(level: 1): set text(fill: color.black, size: 10pt)
 
