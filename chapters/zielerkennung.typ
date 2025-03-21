@@ -34,6 +34,17 @@ Durch die hohe Messgeschwindigkeit eines LiDAR-Systems lassen sich Entfernungen 
 
 === Mikrofone
 
-Viele fliegende Insekten geben durch den Flügelschlag Geräusche ab, weswegen die Idee von Mikrofonen nicht weit entfernt liegt. Jedoch kommen Mikrofone mit mehr Nachteilen als Vorteile. Zwar sind diese Tagesunabhängig, günstig und Energieeffizient, können jedoch einzeln nicht die Position von Geräuschquellen ausmachen. Dies kann wie bei Kameras mit einem weiteren Mikrofon kompensiert werden. Jedoch reicht die Genauigkeit nicht aus, um eine Centimeter genau drei dimensionale position zu ermitteln. 
+Viele fliegende Insekten geben durch den Flügelschlag Geräusche ab, weswegen die Idee von Mikrofonen nicht weit entfernt liegt. Jedoch kommen Mikrofone mit mehr Nachteilen als Vorteile. Zwar sind diese Tagesunabhängig, günstig und Energieeffizient, können jedoch einzeln nicht die Position von Geräuschquellen ausmachen. Dies kann wie bei Kameras mit einem weiteren Mikrofon kompensiert werden. Jedoch reicht die Genauigkeit nicht aus, um  Centimeter genau drei dimensionale position zu ermitteln. 
 
-Auch wenn der Klang von Insekten eher als störend empfunden wird, kann dieser leicht von Umgebungsrauschen übertönt werden. 
+Auch wenn der Klang von Insekten eher als störend empfunden wird, kann dieser leicht von Umgebungsrauschen übertönt werden. Ebenfalls geben Insekten keinen aufnehmbaren Klang von sich, wenn diese nicht fliegen. Dementsprechend sind Mikrofone abhängig von einer leisen Umgebung, mit einem dauerhaft fliegenden Ziel, wovon die Position schwer zu ermitteln ist. Damit sind Mikrofone für diese Arbeit ungeeignet.
+
+=== Entscheidung: Stereo-Kamera-System
+
+Die verschiedenen Arten von Sensorik haben alle ihre Vor- und Nachteile. Radar und LiDAR-Systeme können solch kleine Objekte wie Moskitos kaum Orten und Mikrofone können nur eine grobe Richtung ausmachen. 
+
+Als Entscheidung werden deswegen Kameras als Sensorik verbaut. Zwar kann aus der Aufnahme einer einzelnen Kamera nur schwer die Tiefe erhoben werden, was aber durch eine zweite Kamera mit einem versetzten Blickwinkel behoben werden kann. Die genaue Position kann dadurch wesentlich genauer aufgenommen werden, als bei allen weiteren besprochenen Sensorik.  
+
+Einer der Nachteile von Kameras ist der beschränkte Sichtbereich. Dieser Kann jedoch behoben werden, indem Die Kameras bewegt werden um so ein Ziel zu verfolgen oder in einem Raum zu suchen. Ein Weiterer Nachteil, welcher in Kauf genommen werden muss, ist eine schlechte Aufnahme in schlechten Lichtverhältnissen. Dies ist jedoch mit einer externen Lichtquelle wie einer Taschenlampe entgegenzuwirken.
+
+Somit bietet ein Stereo-Kamera-System eine gute Lösung zur Aufnahme der Umgebung. 
+
