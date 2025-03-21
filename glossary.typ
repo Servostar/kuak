@@ -1,8 +1,13 @@
 #let entries = (
   (
-    key: "kuleuven",
-    short: "KU Leuven",
-    long: "Katholieke Universiteit Leuven",
-    description: "A university in Belgium.",
+    key: "TCP",
+    short: "TCP",
+    long: "Tool Center Point",
+    description: "Punkt eines Roboters an welchem ein Werkzeug angebracht wird.",
   ),
+  (
+    key: "DH-Transformation",
+    short: "DH-Transformation",
+    long: "Denavit–Hartenberg Transformation"
+  )
 )

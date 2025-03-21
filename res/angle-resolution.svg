@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="92.037903mm"
+   height="41.842968mm"
+   viewBox="0 0 92.037903 41.842968"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker7_Fnone_S-3b3b3b"
+       refX="0"
+       refY="0"
+       orient="auto"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:#3b3b3b;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path10" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Stop"
+       refX="0"
+       refY="0"
+       orient="auto"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path23" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Stop_Fnone_S-3b3b3b"
+       refX="0"
+       refY="0"
+       orient="auto"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:#3b3b3b;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path11" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-43.305246,-116.19269)">
+    <path
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#777777;stroke-width:1;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1"
+       d="m 50.809883,157.65585 a 58.007812,26.822813 0 0 1 12.517337,-32.84378 58.007812,26.822813 0 0 1 72.01593,-1.8204" />
+    <path
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 105,148.5 47.328362,135.67776"
+       id="path2" />
+    <path
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 105,148.5 56.935492,127.88619"
+       id="path3" />
+    <path
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 105,148.5 71.217334,122.09252"
+       id="path4" />
+    <path
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 105,148.5 87.267375,118.91472"
+       id="path5" />
+    <path
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#3b3b3b;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker7_Fnone_S-3b3b3b);marker-end:url(#Stop_Fnone_S-3b3b3b)"
+       d="m 56.935491,127.88619 14.281843,-5.79367"
+       id="path6" />
+    <path
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#3b3b3b;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker7_Fnone_S-3b3b3b);marker-end:url(#Stop_Fnone_S-3b3b3b)"
+       d="m 71.217334,122.09252 16.050041,-3.1778"
+       id="path8" />
+    <path
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#3b3b3b;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker7_Fnone_S-3b3b3b);marker-end:url(#Stop_Fnone_S-3b3b3b)"
+       d="m 47.328362,135.67776 9.60713,-7.79157"
+       id="path9" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#3b3b3b;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="59.045746"
+       y="121.12263"
+       id="text9"><tspan
+         id="tspan9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3b3b3b;fill-opacity:1;stroke:none;stroke-width:1"
+         x="59.045746"
+         y="121.12263">h</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="99.341553"
+       y="133.70737"
+       id="text10"><tspan
+         id="tspan10"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+         x="99.341553"
+         y="133.70737">r</tspan></text>
+  </g>
+</svg>
