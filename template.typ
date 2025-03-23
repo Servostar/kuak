@@ -14,7 +14,7 @@
   set text(22pt, font: "TeX Gyre Heros")
   box(pad(left: 10pt, bottom: 10pt, [INFORMATIK]))
   box(pad(left: 8cm, {
-    tiaoma.barcode(, "QRCode", options: (
+    tiaoma.barcode("https://github.com/Servostar/kuak", "QRCode", options: (
       fg-color: luma(140),
       scale: 1.0
     ))
