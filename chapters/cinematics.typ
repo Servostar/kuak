@@ -16,7 +16,10 @@ nicht den @TCP an diesen Punkt zu bewegen, sondern lediglich, dass eine
 orthogonal zu den zur X und Y-Achsen des lokalen Koordinatensystems des @TCP
 verlaufenden Gerade zu diesem Punkt verläuft (siehe @figure:target).
 
-#figure(image("../res/target.svg", width: 40%), caption: [Ansteuerung eines Zieles.]) <figure:target>
+#figure(
+  image("../res/target.svg", width: 40%),
+  caption: [Ansteuerung eines Zieles.],
+) <figure:target>
 
 Damit der @TCP der Kinematik in der Lage ist einen beliebigen Punkt anzusteuern
 bedarf es zwei Freiheitsgrade. Der @TCP muss Fähig sein sich, um die y-Achse
@@ -25,7 +28,10 @@ auf derselben Ebene im Befinden. Zusätzlich wird mit einer beliebigen Drehung
 um die z-Achse es ermöglicht den @TCP nach oben oder unten zu schwenken damit auch
 Punkte erreicht werden, welche sich über oder unter dem @TCP befinden.
 
-#figure(image("../res/cinematic-visual.png", width: 40%), caption: [Freiheitsgrade der Kinematik.]) <figure:cinematic>
+#figure(
+  image("../res/cinematic-visual.png", width: 40%),
+  caption: [Freiheitsgrade der Kinematik.],
+) <figure:cinematic>
 
 @figure:cinematic zeigt ein digitales Modell das darstellt wie eine Mögliche Kinematik samt
 Freiheitsgraden aussehen könnte. Dieses Modell dient im folgenden Dokument als
@@ -49,7 +55,10 @@ den Aufsatz nicht direkt aus dem Gelenk wachsen zu lassen, sondern eine verstär
 Halterung mit Versatz zu verbauen. @figure:model visualisiert das mathematische
 Model das zum Beschreiben der Kinematik angewendet wird.
 
-#figure(image("../res/model.svg", width: 70%), caption: [Modell der Kinematik mit Kenngrößen.]) <figure:model>
+#figure(
+  image("../res/model.svg", width: 70%),
+  caption: [Modell der Kinematik mit Kenngrößen.],
+) <figure:model>
 
 @figure:model arbeitet mit der in der Robotik üblicheren @DH-Transformation.
 Im weiteren Verlauf wird vom Weltkoordinatensystem ausgegangen, bei welchem die y-Achse
@@ -72,7 +81,10 @@ $
   theta = cos^(-1)(frac(arrow(B)' dot arrow(P)', abs(arrow(B)') dot abs(arrow(P)')))
 $
 
-#figure(image("../res/theta.svg", width: 65%), caption: [Lösung für $theta$.]) <figure:theta>
+#figure(
+  image("../res/theta.svg", width: 65%),
+  caption: [Lösung für $theta$.],
+) <figure:theta>
 
 Dieses ergibt sich aus dem Winkel, der zwischen dem Vektor liegt, welcher
 die Basis mit dem Zielpunkt auf der Ebene der Basis verbindet und der Richtung
@@ -128,7 +140,10 @@ $
   Phi = phi - gamma
 $
 
-#figure(image("../res/phi.svg", width: 40%), caption: [Lösung für $Phi$ nach der Transformation.]) <figure:phi>
+#figure(
+  image("../res/phi.svg", width: 45%),
+  caption: [Lösung für $Phi$ nach der Transformation.],
+) <figure:phi>
 
 == Bauteile
 
@@ -137,7 +152,10 @@ die Praxis vernachlässigt werden. Zunächst betrachtet wird die Motorisierung.
 Der Antrieb beider Gelenke soll über zwei Elektromotoren funktionieren.
 @figure:aufbau zeigt die angedachte Position beider Motoren (orange) im Robotor.
 
-#figure(image("../res/aufbau.png", width: 40%), caption: [Schematischer Aufbau.]) <figure:aufbau>
+#figure(
+  image("../res/aufbau.png", width: 40%),
+  caption: [Schematischer Aufbau.],
+) <figure:aufbau>
 
 Der erste Motor, zuständig für die horizontale Rotation, sitzt seitlich versetzt
 im statischen Fundament. Über ein Zahnrad überträgt der Motor seine kinetische
@@ -166,7 +184,10 @@ sich die Kabel auf und verhindern ab einem gewissen Punkt weitere Rotationen
 oder führen zu Schaden. Um dieses Problem zu lösen wird Storm nicht über externe
 Kabel geleitet, sondern wird durch einen Schleifring (cyan) in der Mitte geführt.
 
-#figure(image("../res/schleifring.jpg", width: 40%), caption: [MD6038 Schleifring der Firma Moog @slipring-moog.]) <figure:slipring>
+#figure(
+  image("../res/schleifring.jpg", width: 40%),
+  caption: [MD6038 Schleifring der Firma Moog @slipring-moog.],
+) <figure:slipring>
 
 Wie der Name bereits verrät, befinden sich im Inneren des Schleifringes zwei
 Kontakte die aneinander schleifen und durch mechanischen Kontakt eine leitende
@@ -204,7 +225,10 @@ Um die Ober- und Unterschranke der Auflösung für Winkel zu errechnen, werden
 für jeweils den minimalen und maximalen Radius in der horizontalen der Umfang
 so unterteilt, dass nahtlos ein Insekt der Größe $h$ auf die gesamten 360° passt.
 
-#figure(image("../res/angle-resolution.svg", width: 55%), caption: [Berechnung der Winkelauflösung.]) <figure:angle-resolution>
+#figure(
+  image("../res/angle-resolution.svg", width: 55%),
+  caption: [Berechnung der Winkelauflösung.],
+) <figure:angle-resolution>
 
 Dies muss nur für die horizontale gemacht werden, da hier bereits die gesamte Kreisfläche
 mit einem Winkel von 360° abgedeckt wird. Für die Ober- und Untergrenze der
@@ -222,7 +246,10 @@ und kleinsten Kreisbahn jeweils fliegen kann durch den Umfang der jeweiligen
 Kreisbahn geteilt. Dieser Faktor skaliert den gesamten Winkel der abgedeckt
 werden soll (360°).
 
-#figure(image("../res/angle-speed.svg", width: 55%), caption: [Berechnung der Winkelgeschwindigkeit.]) <figure:angle-resolution>
+#figure(
+  image("../res/angle-speed.svg", width: 55%),
+  caption: [Berechnung der Winkelgeschwindigkeit.],
+) <figure:angle-resolution>
 
 Für die festgelegten Kennwerte ergeben sich folgende Winkelgeschwindigkeiten:
 

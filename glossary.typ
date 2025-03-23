@@ -8,16 +8,16 @@
   (
     key: "DH-Transformation",
     short: "DH-Transformation",
-    long: "Denavit–Hartenberg Transformation"
+    long: "Denavit–Hartenberg Transformation",
   ),
   (
     key: "Radar",
     short: "Radar",
-    long: "Radio Detection and Ranging"
+    long: "Radio Detection and Ranging",
   ),
   (
     key: "LiDAR",
     short: "LiDAR",
-    long: "Light Detection and Ranging"
-  )
+    long: "Light Detection and Ranging",
+  ),
 )
