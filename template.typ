@@ -1,3 +1,5 @@
+#import "@preview/tiaoma:0.3.0"
+
 #let make-venue = move(dy: -1.9cm, {
   box(rect(fill: luma(140), inset: 10pt, height: 2.5cm)[
     #set text(font: "TeX Gyre Pagella", fill: white, weight: 700, size: 20pt)
@@ -11,6 +13,12 @@
   ])
   set text(22pt, font: "TeX Gyre Heros")
   box(pad(left: 10pt, bottom: 10pt, [INFORMATIK]))
+  box(pad(left: 8cm, {
+    tiaoma.barcode(, "QRCode", options: (
+      fg-color: luma(140),
+      scale: 1.0
+    ))
+  }))
 })
 
 #let make-title(
