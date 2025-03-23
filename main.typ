@@ -34,7 +34,7 @@
       institution: "DHBW Mannheim",
       city: "Mannheim",
       country: "Germany",
-      mail: "s9276615@student.dhbw-mannheim.de",
+      mail: "s221978@student.dhbw-mannheim.de",
     ),
   ),
   date: (
@@ -70,6 +70,8 @@
 // Your document body
 
 #include "chapters/cinematics.typ"
+
+#include "chapters/zielerkennung.typ"
 
 #show heading.where(level: 1): set text(fill: color.black, size: 10pt)
 
