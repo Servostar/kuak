@@ -20,4 +20,14 @@
     short: "LiDAR",
     long: "Light Detection and Ranging",
   ),
+  (
+    key: "CO",
+    short: [CO#sub[2]],
+    long: "Carbon dioxide",
+  ),
+  (
+    key: "NOHD",
+    short: "NOHD",
+    long: "No Hazard Distance",
+  )
 )

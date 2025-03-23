@@ -29,7 +29,7 @@ auf besondere Eigenschaften des Zieles analysiert werden, um diese im Bild zu
 identifizieren.
 
 #figure(
-  image("../res/camera.png", width: 65%),
+  image("../res/camera.png", width: 55%),
   caption: [Raspberry Pi Camera Module 3 @camera],
 ) <figure:camera>
 
@@ -63,7 +63,7 @@ um die Entfernung des reflektierenden Objekts zu ermitteln. Durch den Dopplereff
 kann dazu auch die Geschwindigkeit des Objekts ermittelt werden.
 
 #figure(
-  image("../res/radar.png", width: 65%),
+  image("../res/radar.png", width: 60%),
   caption: [24GHz mmWave Sensor - Radar @radar],
 ) <figure:radar>
 
@@ -89,7 +89,7 @@ Eigenschaften von Lichtwellen auf wenige Meter begrenzt.
 
 
 #figure(
-  image("../res/lidar.png", width: 55%),
+  image("../res/lidar.png", width: 50%),
   caption: [Waveshare D500 LiDAR Kit @lidar],
 ) <figure:lidar>
 
@@ -116,7 +116,7 @@ reicht die Genauigkeit nicht aus, um Zentimeter genau drei dimensionale Position
 zu ermitteln.
 
 #figure(
-  image("../res/microfon.png", width: 65%),
+  image("../res/microfon.png", width: 60%),
   caption: [Electret Microphone Amplifier @microfon],
 ) <figure:microfon>
 
@@ -163,7 +163,6 @@ davon in Weltkoordinaten.
 
 Um das genaue Ziel auf den Aufnahmen zu filtern, gibt es den klassischen Ansatz
 der Bildverarbeitung und den Ansatz des maschinellen Lernens.
-
 Bei der klassischen Bildverarbeitung wird über verschiedene Filter die
 Eigenschaften der Aufnahme hervorgehoben und darauf hin diese mit den
 Eigenschaften des Zieles verglichen. Zum einen kann über Licht und Farbe eine
@@ -195,7 +194,6 @@ benötigt.@Visalli2021
 Sobald für beide Aufnahmen ein Ziel identifiziert wurde, muss daraus folgend
 eine Position in Weltkoordinaten errechnet werden, sodass die Kinematik sich
 darauf ausrichten kann.
-
 Zuvor wurden aus den Aufnahmen die jeweiligen Pixelkoordinaten des Zieles
 berechnet. Die Positionen der Kameras lässt sich aus der Stellung der
 Kinematik zu den Weltkoordinaten errechnen. Mit diesen Informationen lässt

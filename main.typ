@@ -50,7 +50,7 @@
   date: (
     year: 2025,
     month: "March",
-    day: 16,
+    day: 24,
   ),
   keywords: (
     "Robotik",
@@ -82,6 +82,8 @@
 #include "chapters/cinematics.typ"
 
 #include "chapters/zielerkennung.typ"
+
+#include "chapters/laser.typ"
 
 #show heading.where(level: 1): set text(fill: color.black, size: 10pt)
 
