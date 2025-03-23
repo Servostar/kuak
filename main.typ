@@ -91,6 +91,8 @@
 
 #print-glossary(glossary.entries)
 
+#v(2em)
+
 #bibliography("refs.bib", title: "Referenzen")
 
 #pdf.embed(
